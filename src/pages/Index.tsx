@@ -1,13 +1,13 @@
 import HeroSection from "@/components/HeroSection";
-import CurrencyPurchase from "@/components/CurrencyPurchase";
-import FeaturesSection from "@/components/FeaturesSection";
+import DonationPackages from "@/components/DonationPackages";
+import ServerInfo from "@/components/ServerInfo";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
+    <div className="min-h-screen bg-gradient-to-b from-purple-900 via-blue-900 to-indigo-900">
       <HeroSection />
-      <CurrencyPurchase />
-      <FeaturesSection />
+      <DonationPackages />
+      <ServerInfo />
     </div>
   );
 };
